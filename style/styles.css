@@ -1,12 +1,15 @@
-* {
-    font-family: serif;
-}
+
 .header {
+
     display:flex;
     flex:auto;
+
+    font-weight:bold;
+    font-size:24px;
+    color:#F9FAF8;
     
     justify-content:space-around;
-    color:red;
+    
 
     background-color:#1F2937
 }
@@ -14,8 +17,27 @@
     display:flex;
     gap:8px;
     align-items:center;
+    font-size:18px;
+    color:#E5E7EB
 
     
+}
+
+.signup1 ,.signup2{
+    background-color:#3882F6;
+    border-radius:4px;
+    padding: 10px 25px;
+    
+    color:white;
+    font-weight:bold;
+}
+.signup1{
+    border:none;
+    
+}
+.signup2{
+    border: 1px solid white;
+    border-radius:5px;
 }
 .header2{
     color:white;
@@ -31,7 +53,8 @@ background-color:#1F2937
     justify-content:center;
     padding:5%;
     font-weight:bolder;
-    font-size:larger;
+    font-size:36px;
+    color:#1F2937
 }
 .fourimage{
     display:flex;
@@ -56,11 +79,12 @@ background-color:#1F2937
 
 }
 .quote-container{
-    margin-right:300px;
-    margin-left:300px;
-    margin-top:30px;
-    border-radius:10px;
-    background-color:bisque;
+    font-style:italic;
+    padding:20px;
+    background-color:#E5E7EB;
+    font-size:32px;
+    font-weight:lighter;
+    color:#1F2937;
 }
 .source{
     display:flex;
@@ -78,7 +102,7 @@ align-items: center;
 justify-content:space-around;
 margin-right:500px;
 margin-left:500px;
-background-color:#1F2937;
+background-color:#3882F6;
 border-radius:10px
 }
 .footer{
