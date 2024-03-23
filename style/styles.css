@@ -75,6 +75,7 @@ background-color:#1F2937
     
    display:flex;
    justify-content:center;
+   font-weight:lighter;
 
 
 }
@@ -83,12 +84,13 @@ background-color:#1F2937
     padding:20px;
     background-color:#E5E7EB;
     font-size:32px;
-    font-weight:lighter;
+    
     color:#1F2937;
 }
 .source{
     display:flex;
     justify-content:right;
+    font-weight:bolder;
 
     
     margin-right: 500px;
